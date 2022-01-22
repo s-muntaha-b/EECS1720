@@ -1,3 +1,6 @@
 2021-01-20
 - started log file
 - reviewed monday's lecture + material about extension
+2021-01-21
+- expirimented with class extension examples (both working)
+- brainstorming + messing around with own ideas of extension
