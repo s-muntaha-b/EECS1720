@@ -4,3 +4,7 @@
 2021-01-21
 - experimented with class extension examples (both working)
 - brainstorming + messing around with own ideas of extension
+2021-01-23
+- started near next day
+- messing around with previous files + watching 
+videos about extensions
