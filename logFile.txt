@@ -10,3 +10,11 @@
 - started near next day
 - messing around with previous files + watching 
 videos about extensions
+
+2021-01-25
+- created official files for project (behind, but
+hope to get some good progress done mid this week)
+- added some basic code
+- will continue to take reference from the 
+original
+
