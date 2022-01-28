@@ -18,3 +18,10 @@ hope to get some good progress done mid this week)
 - will continue to take reference from the 
 original
 
+2021-01-26
+- worked on extension
+
+2021-01-27
+- completed first half of test
+- messed around with second half and extension
+
