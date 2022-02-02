@@ -1,14 +1,7 @@
 window.addEventListener('load', (event) => {
-    //Initialization////////////////////////////////////////////////////
     chrome.storage.sync.get(['configuration'], function(configuration) { 
         setUI(configuration["configuration"]);
     });
-
-    ////////////////////////////////////////////////////////////////////
-
-    //Events////////////////////////////////////////////////////////////
-
-    ///////////////////////
 
     //Checkbox events//////////////////////
     document.getElementById("removeArrowCheckBox").addEventListener("change", event =>{
@@ -28,36 +21,6 @@ window.addEventListener('load', (event) => {
         changeConfig("urlColor", event.target.value);
     });
 
-
-    document.getElementById("twitterWidgetCheckBox").addEventListener("change", event =>{
-        changeConfig("twitterWidget",event.target.checked);
-    });
-
-    document.getElementById("searchWidgetCheckBox").addEventListener("change", event =>{
-        changeConfig("searchWidget",event.target.checked);
-    });
-
-    document.getElementById("askWidgetCheckBox").addEventListener("change", event =>{
-        changeConfig("askWidget",event.target.checked);
-    });
-
-    document.getElementById("sideBarWidgetCheckBox").addEventListener("change", event =>{
-        changeConfig("sideBarWidget",event.target.checked);
-    });
-
-    document.getElementById("mapsFindResultsOnWidgetCheckBox").addEventListener("change", event =>{
-        changeConfig("mapsFindResultsOnWidget", event.target.checked);
-    });
-
-    document.getElementById("mapsWidgetCheckBox").addEventListener("change", event =>{
-        changeConfig("mapsWidget",event.target.checked);
-    });
-
-
-    document.getElementById("imagesCheckBox").addEventListener("change", event =>{
-        changeConfig("images", event.target.checked);
-    });
-
     
     //Button///////////////
     document.getElementById("defaultSettings").addEventListener("click", restoreDefaultConfig);
@@ -71,13 +34,6 @@ window.addEventListener('load', (event) => {
 
                 "colorUrl": false,
                 "urlColor": "#f530ff", //green, etc
-                
-                "twitterWidget": false,
-                "searchWidget": false,
-                "askWidget": false,
-                "sideBarWidget": false,         
-                "mapsFindResultsOnWidget": false,                
-                "mapsWidget": false,
                 
                 "images": false
             }
