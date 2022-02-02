@@ -16,6 +16,5 @@
         "48": "/images/48bit.png",
         "128": "/images/128bit.png"
     }
-},
-"content_scripts": [{}]
+}
 }
