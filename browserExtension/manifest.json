@@ -1,13 +1,13 @@
 {
-"manifest_version:": 2,
+"manifest_version": 2,
 "version": "1.0",
 "name": "Star-ify your Search",
 "description": "Give your Google a night sky inspired look!",
 "icons": {
-    "16": "/images/16bit_round.png",
-    "32": "images/32bit_round.png",
-    "48": "images/48bit_round.png",
-    "128": "images/128bit_round.png"
+    "16": "/images/16bitRound.png",
+    "32": "images/32bitRound.png",
+    "48": "images/48bitRound.png",
+    "128": "images/128bitRound.png"
 },
 "page_action": {
     "default_icon": {
