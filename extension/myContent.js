@@ -1,3 +1,4 @@
+/* Inspiration for project from PedroTech on Youtube. Link: https://www.youtube.com/watch?v=zHIryKuhYA4 */
 let imgBlock = [
     "https://www.stockvault.net/data/2011/05/15/123730/preview16.jpg" /*image from https://www.stockvault.net/photo/123730/stop-sign */,
     "https://cdn.pixabay.com/photo/2016/11/25/06/27/stop-sign-1857711_960_720.jpg" /*image from https://pixabay.com/photos/stop-sign-stop-sign-traffic-red-1857711/ */,
@@ -9,13 +10,20 @@ let imgBlock = [
     "https://i0.wp.com/pixahive.com/wp-content/uploads/2021/01/Stop-sign-board-on-a-road-268172-pixahive.jpg?fit=778%2C1727&ssl=1" /* image from https://pixahive.com/photo/stop-sign-board-on-a-road/ */
 ];
 
-const images = document.getElementsByTagName("img")
+const images = document.getElementsByTagName("img");
 for (let i = 0; i < images.length; i = i + 1){
     const randomImg = Math.floor(Math.random()* imgBlock.length)
     images[i].src = imgBlock[randomImg];
 }
-const titles = document.getElementsByTagName("h1")
-for (let i = 0; i < images.length; i = i + 1){
-    const randomImg = Math.floor(Math.random()* imgBlock.length)
-    h1[i].innerText = "Get back to work!";
+const headerOne = document.getElementsByTagName("h1");
+for (let i = 0; i < headerOne.length; i = i + 1){
+    headerOne[i].innerText = "Stop getting distracted!";
+}
+const headerTwo = document.getElementsByTagName("h2");
+for (let i = 0; i < headerTwo.length; i = i + 1){
+    headerTwo[i].innerText = "Go back and finish your work";
+}
+const headerThree = document.getElementsByTagName("h3");
+for (let i = 0; i < headerThree.length; i = i + 1){
+    headerThree[i].innerText = "Get back to work!";
 }

@@ -1,7 +1,22 @@
 {
     "manifest_version": 2,
     "version": "1.0",
-    "name": "Distraction Blocker",
+    "name": "Stop-Sign Distraction Blocker",
+    "description": "Get easily distracted from your work? With this extension, you can get rid of distractions simply by applying the extension and refreshing the page. Watch as your images turn into images of stop signs, urging you to go back to work!",
+    "icons": {
+        "16": "/images/16bitCircle.png",
+        "32": "images/32bitCircle.png",
+        "48": "images/48bitCircle.png",
+        "128": "images/128bitCircle.png"
+    },
+    "page_action": {
+        "default_icon": {
+            "16": "/images/16bitSquare.png",
+            "32": "/images/32bitSquare.png",
+            "48": "/images/48bitSquare.png",
+            "128": "/images/128bitSquare.png"
+        }
+    },
     "content_scripts":[
         {
             "matches":["<all_urls>"],
