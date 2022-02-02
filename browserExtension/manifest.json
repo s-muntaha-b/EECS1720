@@ -17,8 +17,10 @@
         "128": "/images/128bit.png"
     }
 },
-"content_scripts":[{
+"content_scripts":[
+    {
     "matches": ["https://www.google.com/*"],
     "css": ["mainWeb.css"]
-}]
+    }
+]
 }
