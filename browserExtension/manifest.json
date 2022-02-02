@@ -4,17 +4,20 @@
 "name": "Star-ify your Search",
 "description": "Give your Google a night sky inspired look!",
 "icons": {
-    "16": "/images/16bitRound.png",
-    "32": "images/32bitRound.png",
-    "48": "images/48bitRound.png",
-    "128": "images/128bitRound.png"
+    "16": "/icons/16bitRound.png",
+    "32": "icons/32bitRound.png",
+    "48": "icons/48bitRound.png",
+    "128": "icons/128bitRound.png"
 },
 "page_action": {
     "default_icon": {
-        "16": "/images/16bit.png",
-        "32": "/images/32bit.png",
-        "48": "/images/48bit.png",
-        "128": "/images/128bit.png"
+        "16": "/icons/16bit.png",
+        "32": "/icons/32bit.png",
+        "48": "/icons/48bit.png",
+        "128": "/icons/128bit.png"
     }
-}
+},
+"content_scripts":[{
+    "matches": ["https://www.google.com/*"]
+}]
 }
