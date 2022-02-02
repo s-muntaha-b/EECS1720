@@ -1,6 +1,7 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    width: 400px;
+    background-color: rgb(228, 179, 213);
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    width: 500px;
 }
 
 a {
@@ -9,7 +10,7 @@ a {
 }
 
 #message{
-    color: red;
+    color: rgb(212, 44, 128);
     font-size: 13px;
 }
 
