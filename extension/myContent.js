@@ -21,7 +21,7 @@ for (let i = 0; i < headerOne.length; i = i + 1){
 }
 const headerTwo = document.getElementsByTagName("h2");
 for (let i = 0; i < headerTwo.length; i = i + 1){
-    headerTwo[i].innerText = "Go back and finish your work";
+    headerTwo[i].innerText = "Finish your work";
 }
 const headerThree = document.getElementsByTagName("h3");
 for (let i = 0; i < headerThree.length; i = i + 1){
